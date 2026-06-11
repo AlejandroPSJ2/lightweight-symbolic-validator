@@ -2,9 +2,22 @@
 .pytest_cache/
 __pycache__/
 *.pyc
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Generated / local artifacts
+validation_report.json
+*.log
+benchmark/**/responses/
 benchmark/data/responses/
+
+# Local tooling (not for clones)
+.cursor/
 .mingit/
+MinGit.zip
 _push_log.txt
 _winget_git.txt
 _winget_show.txt
-MinGit.zip

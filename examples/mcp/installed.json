@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "lightweight-symbolic-validator": {
+      "command": "discretevalidator-mcp"
+    }
+  }
+}

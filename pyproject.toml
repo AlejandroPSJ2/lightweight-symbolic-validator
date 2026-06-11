@@ -3,14 +3,32 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "discrete-structure-tool"
+name = "lightweight-symbolic-validator"
 version = "0.1.0"
-description = "Deterministic symbolic reasoning tool for sequences, sets, multisets, and relations"
+description = "Deterministic symbolic validation for LLMs: sequences, sets, multisets, relations (MCP + Python library)"
 readme = "README.md"
+license = "MIT"
 requires-python = ">=3.10"
+authors = [{ name = "AlejandroPSJ2" }]
+keywords = ["mcp", "llm", "validation", "symbolic", "sets", "sequences"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries",
+]
 dependencies = [
     "pydantic>=2.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/AlejandroPSJ2/lightweight-symbolic-validator"
+Repository = "https://github.com/AlejandroPSJ2/lightweight-symbolic-validator"
+Issues = "https://github.com/AlejandroPSJ2/lightweight-symbolic-validator/issues"
 
 [project.optional-dependencies]
 dev = [
@@ -26,7 +44,7 @@ benchmark = [
 
 [project.scripts]
 discretevalidator-mcp = "discretevalidator.mcp_server:main"
-discrete-structure-tool-mcp = "discretevalidator.mcp_server:main"
+lightweight-symbolic-validator-mcp = "discretevalidator.mcp_server:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/discrete_structure_tool", "src/discretevalidator"]

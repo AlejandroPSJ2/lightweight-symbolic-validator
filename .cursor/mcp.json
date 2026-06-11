@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "discretevalidator": {
-      "command": "python",
-      "args": ["-m", "discretevalidator.mcp_server"]
-    }
-  }
-}
