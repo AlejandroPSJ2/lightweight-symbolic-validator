@@ -65,13 +65,14 @@ Tool name: **`validate_discrete_structure`**
 
 ```bash
 python -m discretevalidator.mcp_server
+# or: discretevalidator-mcp   (after pip install -e ".[mcp]")
 ```
 
-**Cursor** — copy `examples/mcp/cursor.json` to `.cursor/mcp.json` and set `cwd` to your clone path. Enable under Settings → Tools & MCP.
+Copy `examples/mcp/mcp.json` → `.cursor/mcp.json` (Cursor) or merge into Claude Desktop config. Set `cwd` to your clone path. See `examples/mcp/README.md`.
 
-**Claude Desktop** — merge `examples/mcp/claude_desktop.json` into your config (adjust `cwd`).
+After `pip install -e ".[mcp]"`, you can use `examples/mcp/installed.json` instead (no `cwd` needed).
 
-This is a **local stdio mockup**, not a hosted MCP product. For ChatGPT you would need an HTTPS deployment separately.
+Local stdio mockup only — not a hosted MCP service.
 
 ## Layout
 
@@ -79,7 +80,7 @@ This is a **local stdio mockup**, not a hosted MCP product. For ChatGPT you woul
 src/discrete_structure_tool/   core engine
 src/discretevalidator/         thin MCP wrapper
 tests/                         unit + integration tests
-examples/mcp/                  sample MCP configs
+examples/mcp/                  MCP config samples (see README there)
 ```
 
 ## Try it (no MCP)

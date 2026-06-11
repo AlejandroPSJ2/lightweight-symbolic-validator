@@ -1,9 +1,0 @@
-{
-  "mcpServers": {
-    "lightweight-symbolic-validator": {
-      "command": "python",
-      "args": ["-m", "discretevalidator.mcp_server"],
-      "cwd": "C:/path/to/lightweight-symbolic-validator"
-    }
-  }
-}
