@@ -1,6 +1,0 @@
-{
-  "profile": "hard",
-  "seed": null,
-  "cases": 30,
-  "description": "30 casos difíciles: palabras complejas y ortografías erróneas. El conteo es sobre la cadena literal."
-}

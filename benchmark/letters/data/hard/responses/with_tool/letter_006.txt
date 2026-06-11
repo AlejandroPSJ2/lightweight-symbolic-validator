@@ -1,1 +1,0 @@
-ERROR: LLM did not return a letter count

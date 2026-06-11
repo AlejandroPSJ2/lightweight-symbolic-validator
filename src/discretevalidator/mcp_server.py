@@ -9,12 +9,11 @@ from mcp.server.fastmcp import FastMCP
 from discretevalidator.core import validate_discrete_structure
 
 mcp = FastMCP(
-    "DiscreteValidator",
+    "Lightweight Symbolic Validator (PoC)",
     instructions=(
-        "DiscreteValidator exposes deterministic symbolic checks via validate_discrete_structure. "
-        "Use it for exact letter counts, set differences, deduplication, relation project/join/group_by, "
-        "and coverage checks. Always pass the full JSON payload (kind, operation, a, ...). "
-        "Cite witness fields when explaining results."
+        "Local PoC MCP mockup. Call validate_discrete_structure with a JSON payload "
+        "(kind, operation, a, ...) for exact letter counts, set logic, deduplication, "
+        "and relation operations. Cite witness fields in your answer."
     ),
 )
 
