@@ -14,13 +14,17 @@ Same JSON API from Python or from a **local MCP mockup** (Cursor / Claude Deskto
 
 ## Who is this for?
 
-| You want to… | Example |
-|--------------|---------|
-| Count something in text | “How many times does **X** appear in this word or list?” |
-| Compare two lists | “Which IDs are in list A but not in list B?” |
-| Check a table | “Are there duplicate owners / duplicate rows?” |
+For anyone wiring an **LLM agent** (Cursor, Claude Desktop, custom apps) who is tired of silent math mistakes: wrong letter counts, set logic off by one, missed duplicates in a table.
 
-The tool does **not** know your domain (medicine, finance, games, etc.). You pass **your** lists and tables; it returns a precise **result** plus **witness** evidence (positions, missing items, duplicates).
+**Without a tool**, the model guesses those steps in its head — and often gets them wrong.
+
+**With this tool or MCP enabled**, the agent can delegate those steps to deterministic code. You do not need to hand-craft a call for each niche scenario; whenever the model would reason symbolically (counts, differences, coverage, duplicates), it can reach for `validate_discrete_structure` instead. In practice that means:
+
+- fewer wrong counts and “obvious” arithmetic slips in answers
+- fewer set/table mistakes (missing items, unseen duplicates)
+- answers backed by **witness** data when the tool was used
+
+It is **not** tied to one domain or one demo word. The same API covers text, lists, sets, and tables — whatever data the conversation already has.
 
 ## Install
 
