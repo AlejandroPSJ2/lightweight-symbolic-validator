@@ -1,0 +1,443 @@
+{
+  "suite": "letters",
+  "seed": 137,
+  "letters_pre_inject_tool": false,
+  "model": "gemini-2.5-flash",
+  "provider": "gemini",
+  "cases": 30,
+  "no_tool": {
+    "cases": 30,
+    "correct": 30,
+    "accuracy_pct": 100.0
+  },
+  "with_tool": {
+    "cases": 30,
+    "correct": 30,
+    "accuracy_pct": 100.0
+  },
+  "delta_accuracy_pct": 0.0,
+  "cases_no_tool": [
+    {
+      "case_id": "letter_001",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_002",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_003",
+      "expected": 2,
+      "parsed": 2,
+      "correct": true,
+      "raw": "2"
+    },
+    {
+      "case_id": "letter_004",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_005",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_006",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_007",
+      "expected": 2,
+      "parsed": 2,
+      "correct": true,
+      "raw": "2"
+    },
+    {
+      "case_id": "letter_008",
+      "expected": 2,
+      "parsed": 2,
+      "correct": true,
+      "raw": "2"
+    },
+    {
+      "case_id": "letter_009",
+      "expected": 2,
+      "parsed": 2,
+      "correct": true,
+      "raw": "2"
+    },
+    {
+      "case_id": "letter_010",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_011",
+      "expected": 3,
+      "parsed": 3,
+      "correct": true,
+      "raw": "3"
+    },
+    {
+      "case_id": "letter_012",
+      "expected": 2,
+      "parsed": 2,
+      "correct": true,
+      "raw": "2"
+    },
+    {
+      "case_id": "letter_013",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_014",
+      "expected": 2,
+      "parsed": 2,
+      "correct": true,
+      "raw": "2"
+    },
+    {
+      "case_id": "letter_015",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_016",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_017",
+      "expected": 2,
+      "parsed": 2,
+      "correct": true,
+      "raw": "2"
+    },
+    {
+      "case_id": "letter_018",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_019",
+      "expected": 2,
+      "parsed": 2,
+      "correct": true,
+      "raw": "2"
+    },
+    {
+      "case_id": "letter_020",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_021",
+      "expected": 2,
+      "parsed": 2,
+      "correct": true,
+      "raw": "2"
+    },
+    {
+      "case_id": "letter_022",
+      "expected": 2,
+      "parsed": 2,
+      "correct": true,
+      "raw": "2"
+    },
+    {
+      "case_id": "letter_023",
+      "expected": 2,
+      "parsed": 2,
+      "correct": true,
+      "raw": "2"
+    },
+    {
+      "case_id": "letter_024",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_025",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_026",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_027",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_028",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_029",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_030",
+      "expected": 2,
+      "parsed": 2,
+      "correct": true,
+      "raw": "2"
+    }
+  ],
+  "cases_with_tool": [
+    {
+      "case_id": "letter_001",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_002",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_003",
+      "expected": 2,
+      "parsed": 2,
+      "correct": true,
+      "raw": "2"
+    },
+    {
+      "case_id": "letter_004",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_005",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_006",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_007",
+      "expected": 2,
+      "parsed": 2,
+      "correct": true,
+      "raw": "2"
+    },
+    {
+      "case_id": "letter_008",
+      "expected": 2,
+      "parsed": 2,
+      "correct": true,
+      "raw": "2"
+    },
+    {
+      "case_id": "letter_009",
+      "expected": 2,
+      "parsed": 2,
+      "correct": true,
+      "raw": "2"
+    },
+    {
+      "case_id": "letter_010",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_011",
+      "expected": 3,
+      "parsed": 3,
+      "correct": true,
+      "raw": "3"
+    },
+    {
+      "case_id": "letter_012",
+      "expected": 2,
+      "parsed": 2,
+      "correct": true,
+      "raw": "2"
+    },
+    {
+      "case_id": "letter_013",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_014",
+      "expected": 2,
+      "parsed": 2,
+      "correct": true,
+      "raw": "2"
+    },
+    {
+      "case_id": "letter_015",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_016",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_017",
+      "expected": 2,
+      "parsed": 2,
+      "correct": true,
+      "raw": "2"
+    },
+    {
+      "case_id": "letter_018",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_019",
+      "expected": 2,
+      "parsed": 2,
+      "correct": true,
+      "raw": "2"
+    },
+    {
+      "case_id": "letter_020",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_021",
+      "expected": 2,
+      "parsed": 2,
+      "correct": true,
+      "raw": "2"
+    },
+    {
+      "case_id": "letter_022",
+      "expected": 2,
+      "parsed": 2,
+      "correct": true,
+      "raw": "2"
+    },
+    {
+      "case_id": "letter_023",
+      "expected": 2,
+      "parsed": 2,
+      "correct": true,
+      "raw": "2"
+    },
+    {
+      "case_id": "letter_024",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_025",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_026",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_027",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_028",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_029",
+      "expected": 1,
+      "parsed": 1,
+      "correct": true,
+      "raw": "1"
+    },
+    {
+      "case_id": "letter_030",
+      "expected": 2,
+      "parsed": 2,
+      "correct": true,
+      "raw": "2"
+    }
+  ]
+}

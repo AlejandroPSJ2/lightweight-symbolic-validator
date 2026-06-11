@@ -1,0 +1,351 @@
+[
+  {
+    "id": "letter_001",
+    "word": "strawberry",
+    "target": "r",
+    "note": "triple r separadas",
+    "expected_count": 3,
+    "expected_positions": [
+      2,
+      7,
+      8
+    ]
+  },
+  {
+    "id": "letter_002",
+    "word": "bookkeeper",
+    "target": "e",
+    "note": "cuatro e",
+    "expected_count": 3,
+    "expected_positions": [
+      5,
+      6,
+      8
+    ]
+  },
+  {
+    "id": "letter_003",
+    "word": "Mississippi",
+    "target": "s",
+    "note": "cuatro s",
+    "expected_count": 4,
+    "expected_positions": [
+      2,
+      3,
+      5,
+      6
+    ]
+  },
+  {
+    "id": "letter_004",
+    "word": "Mississippi",
+    "target": "i",
+    "note": "tres i",
+    "expected_count": 4,
+    "expected_positions": [
+      1,
+      4,
+      7,
+      10
+    ]
+  },
+  {
+    "id": "letter_005",
+    "word": "possession",
+    "target": "s",
+    "note": "cinco s",
+    "expected_count": 4,
+    "expected_positions": [
+      2,
+      3,
+      5,
+      6
+    ]
+  },
+  {
+    "id": "letter_006",
+    "word": "parallel",
+    "target": "l",
+    "note": "tres l",
+    "expected_count": 3,
+    "expected_positions": [
+      4,
+      5,
+      7
+    ]
+  },
+  {
+    "id": "letter_007",
+    "word": "assess",
+    "target": "s",
+    "note": "cuatro s",
+    "expected_count": 4,
+    "expected_positions": [
+      1,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "letter_008",
+    "word": "accommodation",
+    "target": "c",
+    "note": "dos c, dos m",
+    "expected_count": 2,
+    "expected_positions": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "letter_009",
+    "word": "occurrence",
+    "target": "r",
+    "note": "dos r",
+    "expected_count": 2,
+    "expected_positions": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "letter_010",
+    "word": "embarrassment",
+    "target": "r",
+    "note": "dos r",
+    "expected_count": 2,
+    "expected_positions": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "letter_011",
+    "word": "success",
+    "target": "s",
+    "note": "tres s",
+    "expected_count": 3,
+    "expected_positions": [
+      0,
+      5,
+      6
+    ]
+  },
+  {
+    "id": "letter_012",
+    "word": "referring",
+    "target": "r",
+    "note": "tres r",
+    "expected_count": 3,
+    "expected_positions": [
+      0,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "letter_013",
+    "word": "blackberry",
+    "target": "b",
+    "note": "dos b",
+    "expected_count": 2,
+    "expected_positions": [
+      0,
+      5
+    ]
+  },
+  {
+    "id": "letter_014",
+    "word": "aggressive",
+    "target": "g",
+    "note": "tres g",
+    "expected_count": 2,
+    "expected_positions": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "letter_015",
+    "word": "perseverance",
+    "target": "e",
+    "note": "cuatro e",
+    "expected_count": 4,
+    "expected_positions": [
+      1,
+      4,
+      6,
+      11
+    ]
+  },
+  {
+    "id": "letter_016",
+    "word": "assassination",
+    "target": "s",
+    "note": "cinco s",
+    "expected_count": 4,
+    "expected_positions": [
+      1,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "letter_017",
+    "word": "committee",
+    "target": "t",
+    "note": "tres t",
+    "expected_count": 2,
+    "expected_positions": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": "letter_018",
+    "word": "committee",
+    "target": "m",
+    "note": "dos m",
+    "expected_count": 2,
+    "expected_positions": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "letter_019",
+    "word": "millennium",
+    "target": "n",
+    "note": "dos n",
+    "expected_count": 2,
+    "expected_positions": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": "letter_020",
+    "word": "liaison",
+    "target": "i",
+    "note": "tres i",
+    "expected_count": 2,
+    "expected_positions": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "letter_021",
+    "word": "rhythm",
+    "target": "y",
+    "note": "una y",
+    "expected_count": 1,
+    "expected_positions": [
+      2
+    ]
+  },
+  {
+    "id": "letter_022",
+    "word": "rhythm",
+    "target": "h",
+    "note": "una h",
+    "expected_count": 2,
+    "expected_positions": [
+      1,
+      4
+    ]
+  },
+  {
+    "id": "letter_023",
+    "word": "bureaucracy",
+    "target": "u",
+    "note": "tres u",
+    "expected_count": 2,
+    "expected_positions": [
+      1,
+      5
+    ]
+  },
+  {
+    "id": "letter_024",
+    "word": "abbreviation",
+    "target": "i",
+    "note": "tres i",
+    "expected_count": 2,
+    "expected_positions": [
+      6,
+      9
+    ]
+  },
+  {
+    "id": "letter_025",
+    "word": "bookkeeping",
+    "target": "k",
+    "note": "tres k",
+    "expected_count": 2,
+    "expected_positions": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "letter_026",
+    "word": "repertoire",
+    "target": "r",
+    "note": "dos r",
+    "expected_count": 3,
+    "expected_positions": [
+      0,
+      4,
+      8
+    ]
+  },
+  {
+    "id": "letter_027",
+    "word": "eccentricity",
+    "target": "c",
+    "note": "tres c",
+    "expected_count": 3,
+    "expected_positions": [
+      1,
+      2,
+      8
+    ]
+  },
+  {
+    "id": "letter_028",
+    "word": "uncopyrightable",
+    "target": "i",
+    "note": "tres i",
+    "expected_count": 1,
+    "expected_positions": [
+      7
+    ]
+  },
+  {
+    "id": "letter_029",
+    "word": "flibbertigibbet",
+    "target": "b",
+    "note": "tres b",
+    "expected_count": 4,
+    "expected_positions": [
+      3,
+      4,
+      11,
+      12
+    ]
+  },
+  {
+    "id": "letter_030",
+    "word": "appalling",
+    "target": "p",
+    "note": "tres p",
+    "expected_count": 2,
+    "expected_positions": [
+      1,
+      2
+    ]
+  }
+]

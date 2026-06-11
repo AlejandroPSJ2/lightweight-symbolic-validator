@@ -1,0 +1,18 @@
+{
+  "label": "before_witness_repair_loop",
+  "mode": "llm",
+  "model": "gemini-2.5-flash",
+  "no_tool": {
+    "extraction_success_rate_pct": 73.33,
+    "avg_compliance_pct": 68.89,
+    "full_pass_rate_pct": 50.0
+  },
+  "with_tool": {
+    "extraction_success_rate_pct": 100.0,
+    "avg_compliance_pct": 92.22,
+    "full_pass_rate_pct": 53.33
+  },
+  "with_tool_failures_by_rule": {
+    "3": 15
+  }
+}

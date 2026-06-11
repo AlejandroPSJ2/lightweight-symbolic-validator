@@ -1,0 +1,39 @@
+{
+  "id": "var_001",
+  "rules": [
+    "Todo riesgo crítico debe tener al menos un control.",
+    "Ningún control puede existir sin estar asociado a algún riesgo.",
+    "Ningún owner puede ser responsable de más de un riesgo.",
+    "Toda dependencia debe estar asociada a al menos un riesgo.",
+    "Todo riesgo debe tener al menos una dependencia.",
+    "Todo riesgo debe tener al menos un owner."
+  ],
+  "risks": [
+    {"id": "R1", "name": "Riesgo crítico", "severity": "CRITICAL", "owner": "Elena"},
+    {"id": "R2", "name": "Riesgo alto", "severity": "HIGH", "owner": "Iván"},
+    {"id": "R3", "name": "Riesgo alto 2", "severity": "HIGH", "owner": "Pedro"},
+    {"id": "R4", "name": "Riesgo alto 3", "severity": "HIGH", "owner": "Carlos"},
+    {"id": "R5", "name": "Riesgo alto 4", "severity": "HIGH", "owner": "Carlos"},
+    {"id": "R6", "name": "Riesgo alto 5", "severity": "HIGH", "owner": "Laura"},
+    {"id": "R7", "name": "Riesgo alto 6", "severity": "HIGH", "owner": "Jorge"},
+    {"id": "R8", "name": "Riesgo crítico 2", "severity": "CRITICAL", "owner": "Ana"}
+  ],
+  "controls": [
+    {"id": "C1", "name": "Backup"},
+    {"id": "C2", "name": "Validación"},
+    {"id": "C3", "name": "Piloto"},
+    {"id": "C4", "name": "Monitoreo"},
+    {"id": "C5", "name": "Rollback"},
+    {"id": "C6", "name": "Profiling"}
+  ],
+  "dependencies": [
+    {"id": "D1", "name": "SAP PM"},
+    {"id": "D2", "name": "SAP Orders"},
+    {"id": "D3", "name": "SAP Customers"},
+    {"id": "D4", "name": "Snowflake"},
+    {"id": "D5", "name": "ETL"},
+    {"id": "D6", "name": "Finance"},
+    {"id": "D7", "name": "Inventory"},
+    {"id": "D8", "name": "QA"}
+  ]
+}

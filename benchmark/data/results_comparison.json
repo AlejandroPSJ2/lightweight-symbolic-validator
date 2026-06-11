@@ -1,0 +1,53 @@
+{
+  "note": "Antes = corrida LLM original (30 casos). Después usa loop genérico witness→fix→re-validate + extracción estricta (sin inferir owners).",
+  "before": {
+    "label": "baseline",
+    "cases": 30,
+    "no_tool": {
+      "extraction_success_rate_pct": 73.33,
+      "avg_compliance_pct": 68.89,
+      "full_pass_rate_pct": 50.0
+    },
+    "with_tool": {
+      "extraction_success_rate_pct": 100.0,
+      "avg_compliance_pct": 92.22,
+      "full_pass_rate_pct": 53.33,
+      "failures_by_rule": { "3": 15 }
+    }
+  },
+  "after_same_llm_output_strict_extract": {
+    "label": "Re-evaluación caché vieja + extracción estricta (sin re-llamar LLM)",
+    "cases": 30,
+    "interpretation": "Métricas más honestas: sin inferir risk_owners, muchos planes incompletos pasan a fallo de extracción.",
+    "no_tool": {
+      "extraction_success_rate_pct": 56.67,
+      "avg_compliance_pct": 54.44,
+      "full_pass_rate_pct": 46.67
+    },
+    "with_tool": {
+      "extraction_success_rate_pct": 20.0,
+      "avg_compliance_pct": 20.0,
+      "full_pass_rate_pct": 20.0
+    }
+  },
+  "after_fresh_llm_with_repair_loop": {
+    "label": "Muestra 5 casos, LLM fresco + repair loop",
+    "cases": 5,
+    "no_tool": {
+      "extraction_success_rate_pct": 60.0,
+      "avg_compliance_pct": 56.67,
+      "full_pass_rate_pct": 40.0
+    },
+    "with_tool": {
+      "extraction_success_rate_pct": 60.0,
+      "avg_compliance_pct": 60.0,
+      "full_pass_rate_pct": 60.0
+    },
+    "delta_full_pass_rate_pct": 20.0
+  },
+  "changes_implemented": [
+    "extract.py: sin inferencia silenciosa de risk_owners",
+    "llm_runner.py: loop genérico failed_checks.witness → corregir → re-validar (max 2)",
+    "generate.py: prompt genérico de validación con witness"
+  ]
+}

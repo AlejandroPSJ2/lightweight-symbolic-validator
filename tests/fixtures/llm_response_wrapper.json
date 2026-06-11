@@ -1,0 +1,35 @@
+{
+  "case_id": "var_001",
+  "raw": {
+    "risk_owners": [
+      {"risk_id": "R1", "owner_name": "Elena"},
+      {"risk_id": "R2", "owner_name": "Iván"},
+      {"risk_id": "R3", "owner_name": "Pedro"},
+      {"risk_id": "R4", "owner_name": "Carlos"},
+      {"risk_id": "R5", "owner_name": "Sofia"},
+      {"risk_id": "R6", "owner_name": "Laura"},
+      {"risk_id": "R7", "owner_name": "Jorge"},
+      {"risk_id": "R8", "owner_name": "Ana"}
+    ],
+    "risk_controls": [
+      {"risk_id": "R1", "control_ids": ["C1"]},
+      {"risk_id": "R2", "control_ids": ["C2", "C6"]},
+      {"risk_id": "R3", "control_ids": ["C3"]},
+      {"risk_id": "R4", "control_ids": ["C2", "C4", "C5"]},
+      {"risk_id": "R5", "control_ids": ["C2", "C6"]},
+      {"risk_id": "R6", "control_ids": ["C2", "C4"]},
+      {"risk_id": "R7", "control_ids": ["C4"]},
+      {"risk_id": "R8", "control_ids": ["C1", "C4"]}
+    ],
+    "risk_dependencies": [
+      {"risk_id": "R1", "dependency_ids": ["D2"]},
+      {"risk_id": "R2", "dependency_ids": ["D1"]},
+      {"risk_id": "R3", "dependency_ids": ["D3"]},
+      {"risk_id": "R4", "dependency_ids": ["D4", "D5", "D8"]},
+      {"risk_id": "R5", "dependency_ids": ["D3"]},
+      {"risk_id": "R6", "dependency_ids": ["D6"]},
+      {"risk_id": "R7", "dependency_ids": ["D4", "D5"]},
+      {"risk_id": "R8", "dependency_ids": ["D7"]}
+    ]
+  }
+}

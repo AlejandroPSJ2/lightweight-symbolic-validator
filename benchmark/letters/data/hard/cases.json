@@ -1,0 +1,336 @@
+[
+  {
+    "id": "letter_001",
+    "word": "strawberry",
+    "target": "r",
+    "expected_count": 3,
+    "expected_positions": [
+      2,
+      7,
+      8
+    ],
+    "note": "trampa clásica: 3 r separadas"
+  },
+  {
+    "id": "letter_002",
+    "word": "bookkeeper",
+    "target": "e",
+    "expected_count": 3,
+    "expected_positions": [
+      5,
+      6,
+      8
+    ],
+    "note": "tres e, doble k"
+  },
+  {
+    "id": "letter_003",
+    "word": "Mississippi",
+    "target": "s",
+    "expected_count": 4,
+    "expected_positions": [
+      2,
+      3,
+      5,
+      6
+    ],
+    "note": "cuatro s"
+  },
+  {
+    "id": "letter_004",
+    "word": "Mississippi",
+    "target": "p",
+    "expected_count": 2,
+    "expected_positions": [
+      8,
+      9
+    ],
+    "note": "dos p"
+  },
+  {
+    "id": "letter_005",
+    "word": "accommodation",
+    "target": "c",
+    "expected_count": 2,
+    "expected_positions": [
+      1,
+      2
+    ],
+    "note": "doble c correcta"
+  },
+  {
+    "id": "letter_006",
+    "word": "accomodation",
+    "target": "c",
+    "expected_count": 2,
+    "expected_positions": [
+      1,
+      2
+    ],
+    "note": "ortografía errónea: falta una m"
+  },
+  {
+    "id": "letter_007",
+    "word": "occurrence",
+    "target": "r",
+    "expected_count": 2,
+    "expected_positions": [
+      4,
+      5
+    ],
+    "note": "doble c, doble r"
+  },
+  {
+    "id": "letter_008",
+    "word": "ocurrence",
+    "target": "r",
+    "expected_count": 2,
+    "expected_positions": [
+      3,
+      4
+    ],
+    "note": "ortografía errónea: falta una c"
+  },
+  {
+    "id": "letter_009",
+    "word": "embarrassment",
+    "target": "r",
+    "expected_count": 2,
+    "expected_positions": [
+      4,
+      5
+    ],
+    "note": "doble r, doble s"
+  },
+  {
+    "id": "letter_010",
+    "word": "embarassment",
+    "target": "r",
+    "expected_count": 1,
+    "expected_positions": [
+      4
+    ],
+    "note": "ortografía errónea: una s de menos"
+  },
+  {
+    "id": "letter_011",
+    "word": "rhythm",
+    "target": "h",
+    "expected_count": 2,
+    "expected_positions": [
+      1,
+      4
+    ],
+    "note": "sin vocal entre h"
+  },
+  {
+    "id": "letter_012",
+    "word": "rhythm",
+    "target": "y",
+    "expected_count": 1,
+    "expected_positions": [
+      2
+    ],
+    "note": "y como única vocal aparente"
+  },
+  {
+    "id": "letter_013",
+    "word": "dumbbell",
+    "target": "b",
+    "expected_count": 2,
+    "expected_positions": [
+      3,
+      4
+    ],
+    "note": "doble b, doble l"
+  },
+  {
+    "id": "letter_014",
+    "word": "dumbell",
+    "target": "b",
+    "expected_count": 1,
+    "expected_positions": [
+      3
+    ],
+    "note": "ortografía errónea: falta una b"
+  },
+  {
+    "id": "letter_015",
+    "word": "conscientious",
+    "target": "s",
+    "expected_count": 2,
+    "expected_positions": [
+      3,
+      12
+    ],
+    "note": "s dispersas"
+  },
+  {
+    "id": "letter_016",
+    "word": "conscience",
+    "target": "c",
+    "expected_count": 3,
+    "expected_positions": [
+      0,
+      4,
+      8
+    ],
+    "note": "tres c"
+  },
+  {
+    "id": "letter_017",
+    "word": "questionnaire",
+    "target": "n",
+    "expected_count": 2,
+    "expected_positions": [
+      7,
+      8
+    ],
+    "note": "doble n"
+  },
+  {
+    "id": "letter_018",
+    "word": "flibbertigibbet",
+    "target": "b",
+    "expected_count": 4,
+    "expected_positions": [
+      3,
+      4,
+      11,
+      12
+    ],
+    "note": "cuatro b"
+  },
+  {
+    "id": "letter_019",
+    "word": "uncopyrightable",
+    "target": "i",
+    "expected_count": 1,
+    "expected_positions": [
+      7
+    ],
+    "note": "una sola i"
+  },
+  {
+    "id": "letter_020",
+    "word": "supersede",
+    "target": "e",
+    "expected_count": 3,
+    "expected_positions": [
+      3,
+      6,
+      8
+    ],
+    "note": "tres e"
+  },
+  {
+    "id": "letter_021",
+    "word": "recommend",
+    "target": "m",
+    "expected_count": 2,
+    "expected_positions": [
+      4,
+      5
+    ],
+    "note": "doble m"
+  },
+  {
+    "id": "letter_022",
+    "word": "seise",
+    "target": "e",
+    "expected_count": 2,
+    "expected_positions": [
+      1,
+      4
+    ],
+    "note": "doble e en forma arcaica"
+  },
+  {
+    "id": "letter_023",
+    "word": "balloon",
+    "target": "l",
+    "expected_count": 2,
+    "expected_positions": [
+      2,
+      3
+    ],
+    "note": "doble l, doble o"
+  },
+  {
+    "id": "letter_024",
+    "word": "baloon",
+    "target": "l",
+    "expected_count": 1,
+    "expected_positions": [
+      2
+    ],
+    "note": "ortografía errónea: un l de menos"
+  },
+  {
+    "id": "letter_025",
+    "word": "liaison",
+    "target": "i",
+    "expected_count": 2,
+    "expected_positions": [
+      1,
+      3
+    ],
+    "note": "tres i"
+  },
+  {
+    "id": "letter_026",
+    "word": "liason",
+    "target": "i",
+    "expected_count": 1,
+    "expected_positions": [
+      1
+    ],
+    "note": "ortografía errónea: falta una i"
+  },
+  {
+    "id": "letter_027",
+    "word": "address",
+    "target": "d",
+    "expected_count": 2,
+    "expected_positions": [
+      1,
+      2
+    ],
+    "note": "doble d"
+  },
+  {
+    "id": "letter_028",
+    "word": "addres",
+    "target": "d",
+    "expected_count": 2,
+    "expected_positions": [
+      1,
+      2
+    ],
+    "note": "ortografía errónea: falta una d"
+  },
+  {
+    "id": "letter_029",
+    "word": "mississippi",
+    "target": "s",
+    "expected_count": 4,
+    "expected_positions": [
+      2,
+      3,
+      5,
+      6
+    ],
+    "note": "minúsculas, cuatro s"
+  },
+  {
+    "id": "letter_030",
+    "word": "occassion",
+    "target": "s",
+    "expected_count": 2,
+    "expected_positions": [
+      4,
+      5
+    ],
+    "note": "ortografía errónea: doble s extra"
+  }
+]

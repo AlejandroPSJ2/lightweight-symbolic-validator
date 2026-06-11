@@ -1,0 +1,248 @@
+{
+  "case_id": "var_004",
+  "tool_enabled": false,
+  "prompt": "Caso var_004. Diseña un plan de mitigación cumpliendo estas reglas:\n1. Todo riesgo crítico debe tener al menos un control.\n2. Ningún control puede existir sin estar asociado a algún riesgo.\n3. Ningún owner puede ser responsable de más de un riesgo.\n4. Toda dependencia debe estar asociada a al menos un riesgo.\n5. Todo riesgo debe tener al menos una dependencia.\n6. Todo riesgo debe tener al menos un owner.\n\nRiesgos: [{\"id\": \"R1\", \"name\": \"Pérdida de órdenes históricas\", \"severity\": \"MEDIUM\", \"owner\": \"Diego\"}, {\"id\": \"R2\", \"name\": \"Corrupción de catálogo de productos\", \"severity\": \"CRITICAL\", \"owner\": \"Carlos\"}, {\"id\": \"R3\", \"name\": \"Desalineación de jerarquías comerciales\", \"severity\": \"MEDIUM\", \"owner\": \"Pedro\"}, {\"id\": \"R4\", \"name\": \"Errores de transformación ETL\", \"severity\": \"MEDIUM\", \"owner\": \"Lucía\"}, {\"id\": \"R5\", \"name\": \"Duplicidad de clientes\", \"severity\": \"CRITICAL\", \"owner\": \"Maria\"}, {\"id\": \"R6\", \"name\": \"Fallo en reconciliación financiera\", \"severity\": \"HIGH\", \"owner\": \"Iván\"}, {\"id\": \"R7\", \"name\": \"Latencia excesiva en dashboards\", \"severity\": \"CRITICAL\", \"owner\": \"Tomás\"}, {\"id\": \"R8\", \"name\": \"Pérdida de trazabilidad de inventario\", \"severity\": \"HIGH\", \"owner\": \"Ana\"}, {\"id\": \"R9\", \"name\": \"Fallo de sincronización con SAP\", \"severity\": \"MEDIUM\", \"owner\": \"Sara\"}, {\"id\": \"R10\", \"name\": \"Inconsistencia de precios\", \"severity\": \"HIGH\", \"owner\": \"Luis\"}, {\"id\": \"R11\", \"name\": \"Brecha de calidad en master data\", \"severity\": \"MEDIUM\", \"owner\": \"Sofia\"}, {\"id\": \"R12\", \"name\": \"Retraso en cierre contable\", \"severity\": \"HIGH\", \"owner\": \"Beatriz\"}]\nControles: [{\"id\": \"C1\", \"name\": \"Backup completo\"}, {\"id\": \"C2\", \"name\": \"Validación automática\"}, {\"id\": \"C3\", \"name\": \"Pruebas piloto\"}, {\"id\": \"C4\", \"name\": \"Monitoreo en tiempo real\"}, {\"id\": \"C5\", \"name\": \"Rollback automatizado\"}, {\"id\": \"C6\", \"name\": \"Data profiling\"}, {\"id\": \"C7\", \"name\": \"Auditoría financiera\"}, {\"id\": \"C8\", \"name\": \"Validación de inventario\"}, {\"id\": \"C9\", \"name\": \"Control de acceso temporal\"}, {\"id\": \"C10\", \"name\": \"Reconciliación cruzada\"}]\nDependencias: [{\"id\": \"D1\", \"name\": \"SAP Product Master\"}, {\"id\": \"D2\", \"name\": \"SAP Orders\"}, {\"id\": \"D3\", \"name\": \"SAP Customers\"}, {\"id\": \"D4\", \"name\": \"Snowflake Landing Zone\"}, {\"id\": \"D5\", \"name\": \"ETL Pipelines\"}, {\"id\": \"D6\", \"name\": \"Finance Data Mart\"}, {\"id\": \"D7\", \"name\": \"Inventory Service\"}, {\"id\": \"D8\", \"name\": \"QA Environment\"}, {\"id\": \"D9\", \"name\": \"Monitoring Platform\"}]\n\nDevuelve JSON con: risk_owners, risk_controls, risk_dependencies.\nResponde solo con razonamiento propio; NO uses DiscreteStructureTool ni código externo.",
+  "raw": {
+    "risk_owners": [
+      {
+        "id": "Diego",
+        "risks": [
+          "R1"
+        ]
+      },
+      {
+        "id": "Carlos",
+        "risks": [
+          "R2"
+        ]
+      },
+      {
+        "id": "Pedro",
+        "risks": [
+          "R3"
+        ]
+      },
+      {
+        "id": "Lucía",
+        "risks": [
+          "R4"
+        ]
+      },
+      {
+        "id": "Maria",
+        "risks": [
+          "R5"
+        ]
+      },
+      {
+        "id": "Iván",
+        "risks": [
+          "R6"
+        ]
+      },
+      {
+        "id": "Tomás",
+        "risks": [
+          "R7"
+        ]
+      },
+      {
+        "id": "Ana",
+        "risks": [
+          "R8"
+        ]
+      },
+      {
+        "id": "Sara",
+        "risks": [
+          "R9"
+        ]
+      },
+      {
+        "id": "Luis",
+        "risks": [
+          "R10"
+        ]
+      },
+      {
+        "id": "Sofia",
+        "risks": [
+          "R11"
+        ]
+      },
+      {
+        "id": "Beatriz",
+        "risks": [
+          "R12"
+        ]
+      }
+    ],
+    "risk_controls": [
+      {
+        "id": "C1",
+        "name": "Backup completo",
+        "risks": [
+          "R1"
+        ]
+      },
+      {
+        "id": "C2",
+        "name": "Validación automática",
+        "risks": [
+          "R2",
+          "R3",
+          "R5",
+          "R10",
+          "R11"
+        ]
+      },
+      {
+        "id": "C3",
+        "name": "Pruebas piloto",
+        "risks": [
+          "R11"
+        ]
+      },
+      {
+        "id": "C4",
+        "name": "Monitoreo en tiempo real",
+        "risks": [
+          "R4",
+          "R7",
+          "R9"
+        ]
+      },
+      {
+        "id": "C5",
+        "name": "Rollback automatizado",
+        "risks": [
+          "R4",
+          "R9"
+        ]
+      },
+      {
+        "id": "C6",
+        "name": "Data profiling",
+        "risks": [
+          "R2",
+          "R3",
+          "R5",
+          "R10",
+          "R11"
+        ]
+      },
+      {
+        "id": "C7",
+        "name": "Auditoría financiera",
+        "risks": [
+          "R6",
+          "R12"
+        ]
+      },
+      {
+        "id": "C8",
+        "name": "Validación de inventario",
+        "risks": [
+          "R8"
+        ]
+      },
+      {
+        "id": "C9",
+        "name": "Control de acceso temporal",
+        "risks": [
+          "R2"
+        ]
+      },
+      {
+        "id": "C10",
+        "name": "Reconciliación cruzada",
+        "risks": [
+          "R6",
+          "R12"
+        ]
+      }
+    ],
+    "risk_dependencies": [
+      {
+        "id": "D1",
+        "name": "SAP Product Master",
+        "risks": [
+          "R2",
+          "R9",
+          "R10",
+          "R11"
+        ]
+      },
+      {
+        "id": "D2",
+        "name": "SAP Orders",
+        "risks": [
+          "R1",
+          "R9"
+        ]
+      },
+      {
+        "id": "D3",
+        "name": "SAP Customers",
+        "risks": [
+          "R3",
+          "R5",
+          "R9",
+          "R11"
+        ]
+      },
+      {
+        "id": "D4",
+        "name": "Snowflake Landing Zone",
+        "risks": [
+          "R4"
+        ]
+      },
+      {
+        "id": "D5",
+        "name": "ETL Pipelines",
+        "risks": [
+          "R2",
+          "R3",
+          "R4",
+          "R5",
+          "R6",
+          "R7",
+          "R8",
+          "R10",
+          "R11",
+          "R12"
+        ]
+      },
+      {
+        "id": "D6",
+        "name": "Finance Data Mart",
+        "risks": [
+          "R6",
+          "R12"
+        ]
+      },
+      {
+        "id": "D7",
+        "name": "Inventory Service",
+        "risks": [
+          "R8"
+        ]
+      },
+      {
+        "id": "D8",
+        "name": "QA Environment",
+        "risks": [
+          "R4"
+        ]
+      },
+      {
+        "id": "D9",
+        "name": "Monitoring Platform",
+        "risks": [
+          "R7"
+        ]
+      }
+    ]
+  }
+}

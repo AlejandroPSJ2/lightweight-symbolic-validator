@@ -1,0 +1,183 @@
+{
+  "case_id": "var_020",
+  "tool_enabled": true,
+  "prompt": "Caso var_020. Diseña un plan de mitigación cumpliendo estas reglas:\n1. Todo riesgo crítico debe tener al menos un control.\n2. Ningún control puede existir sin estar asociado a algún riesgo.\n3. Ningún owner puede ser responsable de más de un riesgo.\n4. Toda dependencia debe estar asociada a al menos un riesgo.\n5. Todo riesgo debe tener al menos una dependencia.\n6. Todo riesgo debe tener al menos un owner.\n\nRiesgos: [{\"id\": \"R1\", \"name\": \"Pérdida de órdenes históricas\", \"severity\": \"HIGH\", \"owner\": \"Elena\"}, {\"id\": \"R2\", \"name\": \"Corrupción de catálogo de productos\", \"severity\": \"HIGH\", \"owner\": \"Elena\"}, {\"id\": \"R3\", \"name\": \"Desalineación de jerarquías comerciales\", \"severity\": \"MEDIUM\", \"owner\": \"Ana\"}, {\"id\": \"R4\", \"name\": \"Errores de transformación ETL\", \"severity\": \"HIGH\", \"owner\": \"Pedro\"}, {\"id\": \"R5\", \"name\": \"Duplicidad de clientes\", \"severity\": \"CRITICAL\", \"owner\": \"Renata\"}, {\"id\": \"R6\", \"name\": \"Fallo en reconciliación financiera\", \"severity\": \"MEDIUM\", \"owner\": \"Carlos\"}, {\"id\": \"R7\", \"name\": \"Latencia excesiva en dashboards\", \"severity\": \"MEDIUM\", \"owner\": \"Luis\"}, {\"id\": \"R8\", \"name\": \"Pérdida de trazabilidad de inventario\", \"severity\": \"CRITICAL\", \"owner\": \"Laura\"}, {\"id\": \"R9\", \"name\": \"Fallo de sincronización con SAP\", \"severity\": \"HIGH\", \"owner\": \"Camila\"}, {\"id\": \"R10\", \"name\": \"Inconsistencia de precios\", \"severity\": \"CRITICAL\", \"owner\": \"Tomás\"}]\nControles: [{\"id\": \"C1\", \"name\": \"Backup completo\"}, {\"id\": \"C2\", \"name\": \"Validación automática\"}, {\"id\": \"C3\", \"name\": \"Pruebas piloto\"}, {\"id\": \"C4\", \"name\": \"Monitoreo en tiempo real\"}, {\"id\": \"C5\", \"name\": \"Rollback automatizado\"}, {\"id\": \"C6\", \"name\": \"Data profiling\"}, {\"id\": \"C7\", \"name\": \"Auditoría financiera\"}, {\"id\": \"C8\", \"name\": \"Validación de inventario\"}, {\"id\": \"C9\", \"name\": \"Control de acceso temporal\"}, {\"id\": \"C10\", \"name\": \"Reconciliación cruzada\"}]\nDependencias: [{\"id\": \"D1\", \"name\": \"SAP Product Master\"}, {\"id\": \"D2\", \"name\": \"SAP Orders\"}, {\"id\": \"D3\", \"name\": \"SAP Customers\"}, {\"id\": \"D4\", \"name\": \"Snowflake Landing Zone\"}, {\"id\": \"D5\", \"name\": \"ETL Pipelines\"}, {\"id\": \"D6\", \"name\": \"Finance Data Mart\"}, {\"id\": \"D7\", \"name\": \"Inventory Service\"}, {\"id\": \"D8\", \"name\": \"QA Environment\"}]\n\nDevuelve JSON con: risk_owners, risk_controls, risk_dependencies.\nTienes acceso a DiscreteStructureTool y validate_mitigation_plan. Valida antes de responder. Si falla, corrige solo usando failed_checks.witness y vuelve a validar hasta all_passed.",
+  "raw": {
+    "risk_owners": [
+      {
+        "id": "Elena",
+        "risks": [
+          "R1"
+        ]
+      },
+      {
+        "id": "Maria",
+        "risks": [
+          "R2"
+        ]
+      },
+      {
+        "id": "Ana",
+        "risks": [
+          "R3"
+        ]
+      },
+      {
+        "id": "Pedro",
+        "risks": [
+          "R4"
+        ]
+      },
+      {
+        "id": "Renata",
+        "risks": [
+          "R5"
+        ]
+      },
+      {
+        "id": "Carlos",
+        "risks": [
+          "R6"
+        ]
+      },
+      {
+        "id": "Luis",
+        "risks": [
+          "R7"
+        ]
+      },
+      {
+        "id": "Laura",
+        "risks": [
+          "R8"
+        ]
+      },
+      {
+        "id": "Camila",
+        "risks": [
+          "R9"
+        ]
+      },
+      {
+        "id": "Tomás",
+        "risks": [
+          "R10"
+        ]
+      }
+    ],
+    "risk_controls": [
+      {
+        "id": "C1",
+        "risks": [
+          "R1"
+        ]
+      },
+      {
+        "id": "C2",
+        "risks": [
+          "R2"
+        ]
+      },
+      {
+        "id": "C3",
+        "risks": [
+          "R3"
+        ]
+      },
+      {
+        "id": "C4",
+        "risks": [
+          "R4"
+        ]
+      },
+      {
+        "id": "C5",
+        "risks": [
+          "R5"
+        ]
+      },
+      {
+        "id": "C6",
+        "risks": [
+          "R6"
+        ]
+      },
+      {
+        "id": "C7",
+        "risks": [
+          "R7"
+        ]
+      },
+      {
+        "id": "C8",
+        "risks": [
+          "R8"
+        ]
+      },
+      {
+        "id": "C9",
+        "risks": [
+          "R9"
+        ]
+      },
+      {
+        "id": "C10",
+        "risks": [
+          "R10"
+        ]
+      }
+    ],
+    "risk_dependencies": [
+      {
+        "id": "D1",
+        "risks": [
+          "R1",
+          "R9"
+        ]
+      },
+      {
+        "id": "D2",
+        "risks": [
+          "R2",
+          "R10"
+        ]
+      },
+      {
+        "id": "D3",
+        "risks": [
+          "R3"
+        ]
+      },
+      {
+        "id": "D4",
+        "risks": [
+          "R4"
+        ]
+      },
+      {
+        "id": "D5",
+        "risks": [
+          "R5"
+        ]
+      },
+      {
+        "id": "D6",
+        "risks": [
+          "R6"
+        ]
+      },
+      {
+        "id": "D7",
+        "risks": [
+          "R7"
+        ]
+      },
+      {
+        "id": "D8",
+        "risks": [
+          "R8"
+        ]
+      }
+    ]
+  }
+}

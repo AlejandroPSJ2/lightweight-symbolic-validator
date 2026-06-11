@@ -1,0 +1,272 @@
+[
+  {
+    "case_id": "letter_001",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"r\" en la palabra \"strawberry\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "strawberry",
+      "target": "r"
+    }
+  },
+  {
+    "case_id": "letter_002",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"e\" en la palabra \"bookkeeper\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "bookkeeper",
+      "target": "e"
+    }
+  },
+  {
+    "case_id": "letter_003",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"s\" en la palabra \"Mississippi\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "Mississippi",
+      "target": "s"
+    }
+  },
+  {
+    "case_id": "letter_004",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"i\" en la palabra \"Mississippi\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "Mississippi",
+      "target": "i"
+    }
+  },
+  {
+    "case_id": "letter_005",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"s\" en la palabra \"possession\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "possession",
+      "target": "s"
+    }
+  },
+  {
+    "case_id": "letter_006",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"l\" en la palabra \"parallel\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "parallel",
+      "target": "l"
+    }
+  },
+  {
+    "case_id": "letter_007",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"s\" en la palabra \"assess\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "assess",
+      "target": "s"
+    }
+  },
+  {
+    "case_id": "letter_008",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"c\" en la palabra \"accommodation\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "accommodation",
+      "target": "c"
+    }
+  },
+  {
+    "case_id": "letter_009",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"r\" en la palabra \"occurrence\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "occurrence",
+      "target": "r"
+    }
+  },
+  {
+    "case_id": "letter_010",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"r\" en la palabra \"embarrassment\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "embarrassment",
+      "target": "r"
+    }
+  },
+  {
+    "case_id": "letter_011",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"s\" en la palabra \"success\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "success",
+      "target": "s"
+    }
+  },
+  {
+    "case_id": "letter_012",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"r\" en la palabra \"referring\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "referring",
+      "target": "r"
+    }
+  },
+  {
+    "case_id": "letter_013",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"b\" en la palabra \"blackberry\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "blackberry",
+      "target": "b"
+    }
+  },
+  {
+    "case_id": "letter_014",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"g\" en la palabra \"aggressive\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "aggressive",
+      "target": "g"
+    }
+  },
+  {
+    "case_id": "letter_015",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"e\" en la palabra \"perseverance\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "perseverance",
+      "target": "e"
+    }
+  },
+  {
+    "case_id": "letter_016",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"s\" en la palabra \"assassination\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "assassination",
+      "target": "s"
+    }
+  },
+  {
+    "case_id": "letter_017",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"t\" en la palabra \"committee\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "committee",
+      "target": "t"
+    }
+  },
+  {
+    "case_id": "letter_018",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"m\" en la palabra \"committee\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "committee",
+      "target": "m"
+    }
+  },
+  {
+    "case_id": "letter_019",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"n\" en la palabra \"millennium\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "millennium",
+      "target": "n"
+    }
+  },
+  {
+    "case_id": "letter_020",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"i\" en la palabra \"liaison\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "liaison",
+      "target": "i"
+    }
+  },
+  {
+    "case_id": "letter_021",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"y\" en la palabra \"rhythm\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "rhythm",
+      "target": "y"
+    }
+  },
+  {
+    "case_id": "letter_022",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"h\" en la palabra \"rhythm\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "rhythm",
+      "target": "h"
+    }
+  },
+  {
+    "case_id": "letter_023",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"u\" en la palabra \"bureaucracy\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "bureaucracy",
+      "target": "u"
+    }
+  },
+  {
+    "case_id": "letter_024",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"i\" en la palabra \"abbreviation\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "abbreviation",
+      "target": "i"
+    }
+  },
+  {
+    "case_id": "letter_025",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"k\" en la palabra \"bookkeeping\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "bookkeeping",
+      "target": "k"
+    }
+  },
+  {
+    "case_id": "letter_026",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"r\" en la palabra \"repertoire\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "repertoire",
+      "target": "r"
+    }
+  },
+  {
+    "case_id": "letter_027",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"c\" en la palabra \"eccentricity\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "eccentricity",
+      "target": "c"
+    }
+  },
+  {
+    "case_id": "letter_028",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"i\" en la palabra \"uncopyrightable\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "uncopyrightable",
+      "target": "i"
+    }
+  },
+  {
+    "case_id": "letter_029",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"b\" en la palabra \"flibbertigibbet\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "flibbertigibbet",
+      "target": "b"
+    }
+  },
+  {
+    "case_id": "letter_030",
+    "tool_enabled": false,
+    "prompt": "¿Cuántas veces aparece la letra \"p\" en la palabra \"appalling\"?\nResponde SOLO con razonamiento propio. NO uses herramientas ni código. Responde SOLO con un número entero.",
+    "input": {
+      "word": "appalling",
+      "target": "p"
+    }
+  }
+]

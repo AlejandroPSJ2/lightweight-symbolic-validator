@@ -1,0 +1,10 @@
+.env
+.pytest_cache/
+__pycache__/
+*.pyc
+benchmark/data/responses/
+.mingit/
+_push_log.txt
+_winget_git.txt
+_winget_show.txt
+MinGit.zip

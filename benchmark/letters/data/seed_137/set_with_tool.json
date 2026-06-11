@@ -1,0 +1,272 @@
+[
+  {
+    "case_id": "letter_001",
+    "prompt": "¿Cuántas veces aparece la letra \"e\" en la palabra \"parallel\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "parallel",
+      "target": "e"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_002",
+    "prompt": "¿Cuántas veces aparece la letra \"i\" en la palabra \"appalling\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "appalling",
+      "target": "i"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_003",
+    "prompt": "¿Cuántas veces aparece la letra \"e\" en la palabra \"aggressive\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "aggressive",
+      "target": "e"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_004",
+    "prompt": "¿Cuántas veces aparece la letra \"p\" en la palabra \"supersede\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "supersede",
+      "target": "p"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_005",
+    "prompt": "¿Cuántas veces aparece la letra \"w\" en la palabra \"strawberry\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "strawberry",
+      "target": "w"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_006",
+    "prompt": "¿Cuántas veces aparece la letra \"e\" en la palabra \"dumbbell\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "dumbbell",
+      "target": "e"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_007",
+    "prompt": "¿Cuántas veces aparece la letra \"t\" en la palabra \"flibbertigibbet\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "flibbertigibbet",
+      "target": "t"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_008",
+    "prompt": "¿Cuántas veces aparece la letra \"s\" en la palabra \"embarrassment\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "embarrassment",
+      "target": "s"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_009",
+    "prompt": "¿Cuántas veces aparece la letra \"o\" en la palabra \"occasionally\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "occasionally",
+      "target": "o"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_010",
+    "prompt": "¿Cuántas veces aparece la letra \"a\" en la palabra \"strawberry\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "strawberry",
+      "target": "a"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_011",
+    "prompt": "¿Cuántas veces aparece la letra \"o\" en la palabra \"tomorrow\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "tomorrow",
+      "target": "o"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_012",
+    "prompt": "¿Cuántas veces aparece la letra \"s\" en la palabra \"conscientious\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "conscientious",
+      "target": "s"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_013",
+    "prompt": "¿Cuántas veces aparece la letra \"l\" en la palabra \"blackberry\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "blackberry",
+      "target": "l"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_014",
+    "prompt": "¿Cuántas veces aparece la letra \"m\" en la palabra \"committee\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "committee",
+      "target": "m"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_015",
+    "prompt": "¿Cuántas veces aparece la letra \"t\" en la palabra \"uncopyrightable\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "uncopyrightable",
+      "target": "t"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_016",
+    "prompt": "¿Cuántas veces aparece la letra \"o\" en la palabra \"abbreviation\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "abbreviation",
+      "target": "o"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_017",
+    "prompt": "¿Cuántas veces aparece la letra \"a\" en la palabra \"grammar\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "grammar",
+      "target": "a"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_018",
+    "prompt": "¿Cuántas veces aparece la letra \"r\" en la palabra \"address\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "address",
+      "target": "r"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_019",
+    "prompt": "¿Cuántas veces aparece la letra \"e\" en la palabra \"bookkeeping\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "bookkeeping",
+      "target": "e"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_020",
+    "prompt": "¿Cuántas veces aparece la letra \"i\" en la palabra \"library\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "library",
+      "target": "i"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_021",
+    "prompt": "¿Cuántas veces aparece la letra \"s\" en la palabra \"address\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "address",
+      "target": "s"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_022",
+    "prompt": "¿Cuántas veces aparece la letra \"e\" en la palabra \"occurrence\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "occurrence",
+      "target": "e"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_023",
+    "prompt": "¿Cuántas veces aparece la letra \"p\" en la palabra \"Mississippi\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "Mississippi",
+      "target": "p"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_024",
+    "prompt": "¿Cuántas veces aparece la letra \"m\" en la palabra \"maintenance\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "maintenance",
+      "target": "m"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_025",
+    "prompt": "¿Cuántas veces aparece la letra \"p\" en la palabra \"pronunciation\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "pronunciation",
+      "target": "p"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_026",
+    "prompt": "¿Cuántas veces aparece la letra \"m\" en la palabra \"Mississippi\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "Mississippi",
+      "target": "m"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_027",
+    "prompt": "¿Cuántas veces aparece la letra \"c\" en la palabra \"recommend\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "recommend",
+      "target": "c"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_028",
+    "prompt": "¿Cuántas veces aparece la letra \"n\" en la palabra \"uncopyrightable\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "uncopyrightable",
+      "target": "n"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_029",
+    "prompt": "¿Cuántas veces aparece la letra \"m\" en la palabra \"tomorrow\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "tomorrow",
+      "target": "m"
+    },
+    "tool_enabled": true
+  },
+  {
+    "case_id": "letter_030",
+    "prompt": "¿Cuántas veces aparece la letra \"d\" en la palabra \"address\"?\nTienes acceso a DiscreteStructureTool (frequency). Úsalo para contar con precisión. Responde SOLO con un número entero.",
+    "input": {
+      "word": "address",
+      "target": "d"
+    },
+    "tool_enabled": true
+  }
+]

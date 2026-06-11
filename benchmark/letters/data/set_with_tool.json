@@ -1,0 +1,272 @@
+[
+  {
+    "case_id": "letter_001",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"r\" en la palabra \"strawberry\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"strawberry\"), target=\"r\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "strawberry",
+      "target": "r"
+    }
+  },
+  {
+    "case_id": "letter_002",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"e\" en la palabra \"bookkeeper\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"bookkeeper\"), target=\"e\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "bookkeeper",
+      "target": "e"
+    }
+  },
+  {
+    "case_id": "letter_003",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"s\" en la palabra \"Mississippi\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"Mississippi\"), target=\"s\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "Mississippi",
+      "target": "s"
+    }
+  },
+  {
+    "case_id": "letter_004",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"i\" en la palabra \"Mississippi\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"Mississippi\"), target=\"i\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "Mississippi",
+      "target": "i"
+    }
+  },
+  {
+    "case_id": "letter_005",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"s\" en la palabra \"possession\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"possession\"), target=\"s\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "possession",
+      "target": "s"
+    }
+  },
+  {
+    "case_id": "letter_006",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"l\" en la palabra \"parallel\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"parallel\"), target=\"l\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "parallel",
+      "target": "l"
+    }
+  },
+  {
+    "case_id": "letter_007",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"s\" en la palabra \"assess\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"assess\"), target=\"s\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "assess",
+      "target": "s"
+    }
+  },
+  {
+    "case_id": "letter_008",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"c\" en la palabra \"accommodation\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"accommodation\"), target=\"c\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "accommodation",
+      "target": "c"
+    }
+  },
+  {
+    "case_id": "letter_009",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"r\" en la palabra \"occurrence\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"occurrence\"), target=\"r\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "occurrence",
+      "target": "r"
+    }
+  },
+  {
+    "case_id": "letter_010",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"r\" en la palabra \"embarrassment\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"embarrassment\"), target=\"r\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "embarrassment",
+      "target": "r"
+    }
+  },
+  {
+    "case_id": "letter_011",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"s\" en la palabra \"success\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"success\"), target=\"s\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "success",
+      "target": "s"
+    }
+  },
+  {
+    "case_id": "letter_012",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"r\" en la palabra \"referring\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"referring\"), target=\"r\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "referring",
+      "target": "r"
+    }
+  },
+  {
+    "case_id": "letter_013",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"b\" en la palabra \"blackberry\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"blackberry\"), target=\"b\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "blackberry",
+      "target": "b"
+    }
+  },
+  {
+    "case_id": "letter_014",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"g\" en la palabra \"aggressive\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"aggressive\"), target=\"g\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "aggressive",
+      "target": "g"
+    }
+  },
+  {
+    "case_id": "letter_015",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"e\" en la palabra \"perseverance\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"perseverance\"), target=\"e\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "perseverance",
+      "target": "e"
+    }
+  },
+  {
+    "case_id": "letter_016",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"s\" en la palabra \"assassination\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"assassination\"), target=\"s\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "assassination",
+      "target": "s"
+    }
+  },
+  {
+    "case_id": "letter_017",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"t\" en la palabra \"committee\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"committee\"), target=\"t\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "committee",
+      "target": "t"
+    }
+  },
+  {
+    "case_id": "letter_018",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"m\" en la palabra \"committee\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"committee\"), target=\"m\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "committee",
+      "target": "m"
+    }
+  },
+  {
+    "case_id": "letter_019",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"n\" en la palabra \"millennium\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"millennium\"), target=\"n\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "millennium",
+      "target": "n"
+    }
+  },
+  {
+    "case_id": "letter_020",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"i\" en la palabra \"liaison\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"liaison\"), target=\"i\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "liaison",
+      "target": "i"
+    }
+  },
+  {
+    "case_id": "letter_021",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"y\" en la palabra \"rhythm\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"rhythm\"), target=\"y\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "rhythm",
+      "target": "y"
+    }
+  },
+  {
+    "case_id": "letter_022",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"h\" en la palabra \"rhythm\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"rhythm\"), target=\"h\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "rhythm",
+      "target": "h"
+    }
+  },
+  {
+    "case_id": "letter_023",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"u\" en la palabra \"bureaucracy\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"bureaucracy\"), target=\"u\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "bureaucracy",
+      "target": "u"
+    }
+  },
+  {
+    "case_id": "letter_024",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"i\" en la palabra \"abbreviation\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"abbreviation\"), target=\"i\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "abbreviation",
+      "target": "i"
+    }
+  },
+  {
+    "case_id": "letter_025",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"k\" en la palabra \"bookkeeping\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"bookkeeping\"), target=\"k\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "bookkeeping",
+      "target": "k"
+    }
+  },
+  {
+    "case_id": "letter_026",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"r\" en la palabra \"repertoire\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"repertoire\"), target=\"r\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "repertoire",
+      "target": "r"
+    }
+  },
+  {
+    "case_id": "letter_027",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"c\" en la palabra \"eccentricity\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"eccentricity\"), target=\"c\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "eccentricity",
+      "target": "c"
+    }
+  },
+  {
+    "case_id": "letter_028",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"i\" en la palabra \"uncopyrightable\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"uncopyrightable\"), target=\"i\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "uncopyrightable",
+      "target": "i"
+    }
+  },
+  {
+    "case_id": "letter_029",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"b\" en la palabra \"flibbertigibbet\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"flibbertigibbet\"), target=\"b\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "flibbertigibbet",
+      "target": "b"
+    }
+  },
+  {
+    "case_id": "letter_030",
+    "tool_enabled": true,
+    "prompt": "¿Cuántas veces aparece la letra \"p\" en la palabra \"appalling\"?\nDebes usar la herramienta run_discrete_structure_tool con kind=\"sequence\", operation=\"frequency\", a=list(\"appalling\"), target=\"p\". Responde SOLO con el número entero del campo result.",
+    "input": {
+      "word": "appalling",
+      "target": "p"
+    }
+  }
+]
