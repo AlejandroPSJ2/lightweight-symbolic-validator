@@ -2,7 +2,7 @@
 
 **Proof-of-concept MCP tool** that helps LLM agents apply deterministic validations for set logic, sequences, multisets and relations. Local PoC
 
-Connect it in **Cursor** or **Claude Desktop** (local, stdio). The agent calls **`validate_discrete_structure`** when it needs an exact answer instead of mental math.
+Connect it in **Cursor** or **Claude Desktop** (local, stdio). Once enabled, the tool **`validate_discrete_structure`** is **available** to the agent on every turn — the agent **decides when to call it**; it does not run on every message by itself.
 
 **Repo:** https://github.com/AlejandroPSJ2/lightweight-symbolic-validator
 
@@ -14,8 +14,6 @@ For anyone using an **LLM agent** who keeps seeing the same slips: wrong counts,
 |---|--------------|------------------------|
 | How it works | Model guesses in the reply | Model delegates to deterministic code |
 | Typical outcome | Silent errors | Fewer symbolic mistakes; optional **witness** evidence in the answer |
-
-You do **not** configure one scenario per use case. Once the tool is on, the agent can use it whenever the conversation needs exact counts, set differences, coverage, or duplicate detection — on whatever text, lists, or tables appear in the chat.
 
 ## Quick start (MCP)
 
