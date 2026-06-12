@@ -15,6 +15,10 @@ For anyone using an **LLM agent** who keeps seeing the same slips: wrong counts,
 | How it works | Model guesses in the reply | Model delegates to deterministic code |
 | Typical outcome | Silent errors | Fewer symbolic mistakes; optional **witness** evidence in the answer |
 
+## Example
+
+<img width="604" height="404" alt="image" src="https://github.com/user-attachments/assets/e1c51769-72a1-4911-85b5-724cc599eae9" />
+
 ## Quick start (MCP)
 
 ```bash
