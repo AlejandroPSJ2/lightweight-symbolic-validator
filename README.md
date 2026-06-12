@@ -1,6 +1,6 @@
 # Lightweight Symbolic Validator
 
-**Proof-of-concept MCP tool** that helps LLM agents stop guessing on symbolic steps — letter counts, set logic, duplicate rows, and similar checks.
+**Proof-of-concept MCP tool** that helps LLM agents apply deterministic validations for set logic, sequences, multisets and relations. Local PoC
 
 Connect it in **Cursor** or **Claude Desktop** (local, stdio). The agent calls **`validate_discrete_structure`** when it needs an exact answer instead of mental math.
 
